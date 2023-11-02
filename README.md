@@ -41,7 +41,11 @@ ________________________________________________________________________________
 
 
 
-https://github.com/Doflamingo20/pert6_mobile/assets/130146099/9fe8e0ec-29cd-440e-a33d-c7f9fce0516c
+https://github.com/Doflamingo20/pert6_mobile/assets/130146099/bffae1a6-066c-4284-baef-d97244e99f57
+
+
+
+
 
 
 
