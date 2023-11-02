@@ -8,85 +8,29 @@ Mata Kuliah : Pemrograman Mobile 1
 
 Dosen Pengampu : Donny Maulana, S.Kom.,M.M.S.I.
 
-Tugas : Buatlah Method Program java Toast Number, dengan menghasilkan Bilangan Fibonacci
+Tugas : Membuat Method Program java Toast Number, dengan menghasilkan Bilangan Fibonacci
+_________________________________________________________________________________________
+
+# Main Activity (Layout)
+
+![Screenshot (2)](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/31165ac8-963e-46be-894a-849afbaf5980)
+![Screenshot (3)](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/2e810d2b-77e4-4f2f-b971-02a87520eded)
+![Screenshot (4)](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/9d11f98b-3716-4809-899c-e2aeb179ecc5)
+![Screenshot (5)](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/ddf147f7-3567-4987-b63b-96e57a19f0c3)
+
+# Main Activity (Java)
+
+![Screenshot (1)](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/041e0dd5-58d6-4291-9d12-f4c93543ea37)
+![Screenshot (6)](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/2b215ee2-9ac8-439c-81bd-497c390add86)
+![Screenshot (7)](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/83beec0c-2293-4ff0-a94d-d7b6675d1be4)
+
+# Color (Value)
+
+![Screenshot (8)](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/bbd34434-621b-4c1a-8e97-84b3a7419731)
+
+# String (Value)
+
+![Screenshot (9)](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/debb2ee9-8632-44c4-a854-4afac5d5d2d8)
 
 
-# Layout Main Activity
 
-
-<?xml version="1.0" encoding="utf-8"?>
-
-<androidx.constraintlayout.widget.ConstraintLayout 
-
-xmlns:android="http://schemas.android.com/apk/res/android"
-
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    
-    xmlns:tools="http://schemas.android.com/tools"
-    
-    android:layout_width="match_parent"
-    
-    android:layout_height="match_parent"
-    
-    tools:context=".MainActivity">
-    
-    <Button
-        android:id="@+id/button_toast"
-        android:layout_width="421dp"
-        android:layout_height="48dp"
-        android:background="@color/colorPrimary"
-        android:onClick="showToast"
-        android:text="Toast"
-        android:textColor="@android:color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="199dp"
-        android:layout_height="55dp"
-        android:background="@color/colorPrimary"
-        android:onClick="countUp"
-        android:text="@string/button_label_count"
-        android:textColor="@android:color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"/>
-
-    <TextView
-        android:id="@+id/show_count"
-        android:layout_width="407dp"
-        android:layout_height="626dp"
-        android:background="@color/black"
-        android:gravity="center_vertical"
-        android:text="1"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
-        android:textSize="160dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_toast"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore=",Rtlcompat" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="210dp"
-        android:layout_height="56dp"
-        android:background="@color/colorPrimary"
-        android:onClick="Reset"
-        android:text="Back"
-        android:textColor="@android:color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/show_count"
-        app:layout_constraintVertical_bias="0.0"/>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
