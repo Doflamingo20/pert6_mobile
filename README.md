@@ -33,4 +33,18 @@ ________________________________________________________________________________
 ![Screenshot (9)](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/debb2ee9-8632-44c4-a854-4afac5d5d2d8)
 
 
+# Bentuk Design 
+
+![IMG-20231102-WA0095](https://github.com/Doflamingo20/pert6_mobile/assets/130146099/d3d40bb3-5548-40dd-af4e-4babc0e6c0a5)
+
+# Hasil Output Dengan Limit 987
+
+
+
+https://github.com/Doflamingo20/pert6_mobile/assets/130146099/9fe8e0ec-29cd-440e-a33d-c7f9fce0516c
+
+
+
+
+
 
